@@ -1,0 +1,48 @@
+body {
+    background-color: white;
+    color: white;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-menu {
+    background-color: rgba(33, 37, 41, 1) !important;
+    height: 126px;
+
+}
+
+.nav-container {
+    max-width: 1320px;
+    margin-inline: auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.img {
+    width: 110px;
+    aspect-ratio: auto 110 / 100;
+    height: 100px;
+    font-size: 1.25rem;
+    white-space: nowrap;
+}
+
+.mi-ul {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+
+}
+
+.mi-ul li {
+    margin: 10px;
+    padding: 10px;
+
+}
